@@ -1,0 +1,245 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.topbar {
+    background-color: #091E3E;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 80px;
+}
+
+.topbar #leftul {
+    float: left;
+    color: white;
+}
+
+.topbar #leftul li {
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+.topbar #rightul {
+    float: right;
+
+}
+
+.topbar #rightul li {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 3px 13px;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.topbar #rightul li:hover {
+    background-color: #06A3DA;
+}
+
+.marquee {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.marquee .left {
+    background-color: #091E3E;
+    float: left;
+    width: 35%;
+    color: #06A3DA;
+    text-align: center;
+    font-size: 18px;
+}
+
+.marquee .right {
+    width: 65%;
+    float: right;
+    font-size: 20px;
+    background-color: #06A3DA;
+    color: white;
+    height: 30px;
+}
+/* topbar complete */
+.header{
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #06A3DA;
+    border-top: 1px solid #06A3DA;
+    padding: 0px 80px;
+}
+.header #logo{
+   float: left;
+   width: 25%;
+   height: 80px;
+}
+
+.header ul{
+    float: left;
+    width:50% ;
+
+}
+.header ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.header ul li a{
+    color: #091E3E;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.header ul li a:hover{
+    color: white;
+    background-color:#091E3E;
+    display: block;
+}
+.header ul li ul{ 
+      width: 250px;
+    background-color:#091E3E ;
+    display: none;
+}
+.header ul li ul li{
+    width: 250px;
+}
+.header ul li ul li a{
+color: white;
+}
+.header ul li ul li a:hover{
+    background-color:#06A3DA;
+    display: block;
+}
+.header ul li:hover ul{
+display: block;
+}
+.header .btn
+{
+    text-align: right;
+    float: right;
+    width: 25%;
+}
+.header .btn button
+{
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: #091E3E;
+    border-radius: 5px;
+}
+.header .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.header .btn button:hover{
+    background-color: #06A3DA;
+}
+/* header complete */
+
+.banner{
+    background: url(banner.jpeg) no-repeat scroll;
+    height: 420px;
+    background-size: cover;
+}
+/* banner section end */
+.about{
+    width: 100%;
+    height: 500px;
+    font-size: 19px;
+}
+.about .artical{
+    float: left;
+    width: 82%;
+    height: 500px;
+    padding: 20px;
+}
+.about .artical h2{
+    padding: 10px 0px;
+}
+.about .aside{
+    float: right;
+    width: 18%;
+    height: 500px;
+    background-color: aliceblue;
+}
+.about .aside .btn{
+    margin: 10px;
+}
+.about .aside button{
+    height: 60px;
+    width: 100%;
+    border: none;
+    background-color: #091E3E;
+}
+.about .aside button a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+/* About section complete */
+.gallery{
+    padding: 40px;
+    text-align: center;
+}
+.gallery .h2{
+    padding: 20px 0px;
+    font-size: 33px;
+}
+.gallery .para{
+    width: 700px;
+    font-size: 19px;
+    color: gray;
+    margin: 0px auto;
+}
+.gallery ul li{
+    width: 400px;
+    padding: 10px;
+    margin: 30px 10px;
+    border: 2px solid lightgray;
+    font-size: 20px;
+    color: rgb(97, 95, 95);
+    float: left;
+}
+.gallery ul li h2{
+    font-size: 22px;
+    font-weight: lighter;
+}
+/* gallery section complete */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+    font-size: 20px;
+}
+.footer .linkpage a{
+color: white;
+text-decoration: none;
+}
+.footer .linkpage a:hover{
+    color: #06A3DA;
+}
+.footer #socialicon li {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 3px 13px;
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.footer #socialicon li:hover {
+    background-color: #06A3DA;
+}
